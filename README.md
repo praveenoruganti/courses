@@ -1,4 +1,1 @@
-# courses
-Praveen Oruganti Tech Courses
-
-
+# Praveen Oruganti Tech Courses
