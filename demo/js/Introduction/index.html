@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186960773-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186960773-2');
+</script>
+
+    <title>Introduction</title>
+     <link rel="icon" href="favicon.ico" />
+
+</head>
+
+<body>
+<h1>Please have a look at the Browser Console</h1>
+<p>
+<pre>
+console.log("Welcome to Praveen Oruganti JavaScript Tutorial");
+
+// Hoisting
+
+// Example1: We can use a variable before it is declared
+num = 50;
+console.log(num); // 50
+var num;
+
+// Example2: Hoisting moves the declarations to top but not the assignments.
+var num1;
+console.log(num1); // undefined
+num1 = 100;
+
+// Example3: If variable not declared anywhere then it is Global.
+
+function test(){
+    num2=200;
+    var num3=300;
+
+}
+
+test();
+console.log(num2); // 200
+console.log(num3); // ReferenceError: num3 is not defined
+</pre>
+</p>
+</body>
+<script>
+    console.log("How To Write JavaScript")
+</script>
+<script src="script.js"></script>
+</html>

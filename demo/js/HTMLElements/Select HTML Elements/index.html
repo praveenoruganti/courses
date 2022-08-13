@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186960773-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186960773-2');
+</script>
+
+    <title>Select HTML Elements</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Please have a look at the Browser Console</h1>
+    <header id="topbar">
+        <nav>
+            <div>
+                <span id="logo">Praveen Oruganti</span>
+                <span class="menu-item">Flashbytes</span>
+                <span class="menu-item">Categories</span>
+                <span class="menu-item">Upload Video</span>
+
+            </div>
+        </nav>
+    </header>
+
+    <p>
+    <pre>
+console.log("Script Loaded");
+console.log(document.getElementById("topbar"));
+console.log(document.getElementById("logo"));
+console.log(document.getElementById("test"));
+
+console.log(document.getElementsByClassName("menu-item"));
+console.log(document.getElementsByClassName("test"));
+
+console.log(document.getElementsByTagName("span"));
+console.log(document.getElementsByTagName("test"));
+
+console.log(document.querySelector("#topbar span"));
+console.log(document.querySelector("#test span"));
+console.log(document.querySelectorAll("#topbar span"));
+console.log(document.querySelectorAll("#test span"));
+
+    </pre>
+    </p>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

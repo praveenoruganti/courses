@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186960773-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186960773-2');
+</script>
+
+    <title>Mouse Events</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<button id="top-btn">Click Me!!</button>
+<h1>Please have a look at the Browser Console</h1>
+<p>
+<pre>
+let btn = document.getElementById("top-btn");
+
+btn.addEventListener("mousedown", () => {
+  console.log("Mouse Down Event");
+});
+
+btn.addEventListener("mouseup", () => {
+  console.log("Mouse Up Event");
+});
+
+btn.addEventListener("click", () => {
+  console.log("Click Event");
+});
+
+btn.addEventListener("dblclick", () => {
+  console.log("Double Click Event");
+});
+
+btn.addEventListener("mouseover", () => {
+  console.log("Mouse Over Event");
+});
+
+btn.addEventListener("mousemove", () => {
+  console.log("Mouse Move Event");
+});
+</pre>
+</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

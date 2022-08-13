@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186960773-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186960773-2');
+</script>
+
+    <title>Keyboard Events</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>Please press any key in keyboard and have a look at the Browser Console</h1>
+<p>
+<pre>
+document.body.addEventListener("keydown", (event) => {
+  let keyCode = event.keyCode;
+  console.log(`Keydown for ${keyCode} `);
+});
+
+document.body.addEventListener("keyup", (event) => {
+  let keyCode = event.keyCode;
+  console.log(`KeyUp for ${keyCode} `);
+});
+
+document.body.addEventListener("keypress", (event) => {
+  let keyCode = event.keyCode;
+  console.log(`KeyPress for ${keyCode} `);
+});
+</pre>
+</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
