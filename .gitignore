@@ -1,0 +1,9 @@
+*node_modules
+build
+.firebase
+.eslintcache
+*public
+*src
+package.json
+package-lock.json
+.env
