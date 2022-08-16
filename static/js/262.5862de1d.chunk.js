@@ -1,0 +1,1 @@
+(this["webpackJsonppraveenoruganti-courses"]=this["webpackJsonppraveenoruganti-courses"]||[]).push([[262],{817:function(e,n,s){"use strict";s.r(n),n.default=" Let's see some Design Problems.\n\n- [Vending Machine](https://praveenoruganti.github.io/courses/#/systemdesign/vendingmachine)\n\n\nThis section will be updated very soon.... "}}]);
