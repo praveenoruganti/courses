@@ -262,7 +262,7 @@
     "static/js/259.9ba9ce40.chunk.js": "/courses/static/js/259.9ba9ce40.chunk.js",
     "static/js/260.08138e0f.chunk.js": "/courses/static/js/260.08138e0f.chunk.js",
     "static/js/261.763671b3.chunk.js": "/courses/static/js/261.763671b3.chunk.js",
-    "static/js/262.fc4ec6d4.chunk.js": "/courses/static/js/262.fc4ec6d4.chunk.js",
+    "static/js/262.330a6120.chunk.js": "/courses/static/js/262.330a6120.chunk.js",
     "static/js/263.e37ba8f9.chunk.js": "/courses/static/js/263.e37ba8f9.chunk.js",
     "static/js/264.0ae60f07.chunk.js": "/courses/static/js/264.0ae60f07.chunk.js",
     "static/js/265.3456b867.chunk.js": "/courses/static/js/265.3456b867.chunk.js",
@@ -506,7 +506,7 @@
     "react-syntax-highlighter_languages_highlight_xquery.js": "/courses/static/js/react-syntax-highlighter_languages_highlight_xquery.2828f40f.chunk.js",
     "react-syntax-highlighter_languages_highlight_yaml.js": "/courses/static/js/react-syntax-highlighter_languages_highlight_yaml.72178649.chunk.js",
     "react-syntax-highlighter_languages_highlight_zephir.js": "/courses/static/js/react-syntax-highlighter_languages_highlight_zephir.9f1297e1.chunk.js",
-    "runtime-main.js": "/courses/static/js/runtime-main.521906b5.js",
+    "runtime-main.js": "/courses/static/js/runtime-main.77381c12.js",
     "static/css/506.6b61854e.chunk.css": "/courses/static/css/506.6b61854e.chunk.css",
     "static/js/506.7d6cfdf1.chunk.js": "/courses/static/js/506.7d6cfdf1.chunk.js",
     "static/js/507.e4914f7a.chunk.js": "/courses/static/js/507.e4914f7a.chunk.js",
@@ -520,7 +520,7 @@
     "static/media/praveenorugantitech.PNG": "/courses/static/media/praveenorugantitech.de9b734c.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.521906b5.js",
+    "static/js/runtime-main.77381c12.js",
     "static/css/506.6b61854e.chunk.css",
     "static/js/506.7d6cfdf1.chunk.js",
     "static/css/main.c321cfff.chunk.css",
