@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186960773-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186960773-2');
+</script>
+
+    <title>JSON</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1>Please have a look at the Browser Console</h1>
+<p>
+<pre>
+let companies = `[
+    {
+      "name": "Praveen Oruganti Tech",
+      "numberOfEmployees": 10000,
+      "ceo": "Praveen Oruganti",
+      "rating": 4.5
+    },
+    {
+      "name": "Khaja Startup",
+      "numberOfEmployees": 3,
+      "ceo": "Khaja",
+      "rating": 4
+    }
+  ]`;
+
+console.log(JSON.parse(companies));
+console.log(JSON.parse(companies)[0].name);
+
+</pre>
+</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
